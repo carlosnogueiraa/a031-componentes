@@ -64,11 +64,23 @@ footer {
   padding: 0 10px;
 }
 
-.box-pagina-principal > img {
+.box-pagina-principal > .imgPaisagem {
   width: 100%;
   height: 200px;
 }
 
 h4 {
   margin-left: 20px;
+}
+
+.autorContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.autor{
+  width: 5vw;
 }
